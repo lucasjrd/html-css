@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: "Anton";
+    src: url("Anton-Regular.ttf") format("truetype");
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body main {
+    max-width: 100%;
+    border: 300px;
+    padding: 200px;
+}
+
+header{
+    text-align: center;
+    border: 50px solid black;
+    color: white;
+    background-color: black;
+    
+}
+
+header h1 {
+    background-color: black;
+    font-family: 'Anton';
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.branco{
+    color: black;
+    text-align: left;
+    
+}
+
+.imagem{
+    background-color: antiquewhite;
+    background-image: url(background001.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 10px;
+    padding: 10px;
+}
